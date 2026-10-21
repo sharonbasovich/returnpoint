@@ -14,7 +14,7 @@ Close the saved tab and reopen the same HTTP address in the same profile. Record
 
 Export a checkpoint, paste its JSON into Import, review, then save deliberately. Canceling an import leaves saved work unchanged. Try malformed JSON: it should fail without replacing anything. Edit without saving, return to the checkpoint, and recover the draft. In two tabs based on the same checkpoint, save in B then save in A: A must show conflict and retain its text. Export A, load latest, reconcile manually.
 
-Use Tab, visible focus and Ctrl/Command+Enter to save. On mobile, read the single-column resume view. No animation is needed; reduced motion is respected. Storage failures must be visible, with export still available. See QA.md for which checks were actually run; do not claim unrun checks passed.
+Use Tab, visible focus and Ctrl/Command+Enter to save. On mobile, read the single-column resume view. No animation is needed; reduced motion is respected. Storage failures must be visible, with export still available. See [QA evidence](evidence/QA.md) for completed checks and limitations.
 
 ## Rubric mapping
 
@@ -24,4 +24,4 @@ Use Tab, visible focus and Ctrl/Command+Enter to save. On mobile, read the singl
 - Originality: fresh event-period implementation, not a submitted-project fork.
 - Presentation: concise before/after, synthetic content, honest limitations, AI and pre-existing-component disclosures.
 
-The overview lists Impact and Technical Execution (duplicated); rules additionally name usefulness, accessibility, originality and presentation. No weights are invented. Requirements allow a walkthrough; a video is optional based on the reviewed sources. Before any later entry, include complete team/story, intended user/barrier, tools, build instructions, demo, disclosures, limitations and learning. **Do not submit yet.**
+The overview lists Impact and Technical Execution (duplicated); rules additionally name usefulness, accessibility, originality and presentation. No weights are invented. Requirements allow a walkthrough; a video is optional based on the reviewed sources. A complete entry would also include team/story, intended user/barrier, tools, build instructions, demo, disclosures, limitations and learning. No contest entry has been submitted for this prototype.
