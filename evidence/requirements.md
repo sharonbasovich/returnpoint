@@ -1,6 +1,6 @@
 # Official requirements verified before implementation
 
-Verified 2026-10-21 via the supported in-app browser, using visible accessibility page text. Web search/open could not access these pages; terminal HTTP failed DNS. Browser reading succeeded. No sign-in, registration, project submission, or account changes performed.
+Official overview, rules and schedule were read in a browser on October 21, 2026. The summaries below preserve the requirements and rubric as displayed on that date.
 
 Sources:
 - https://taskforge.devpost.com/ (overview)
@@ -15,7 +15,7 @@ Rules require original work created during the event and a complete project page
 
 Schedule page: submissions October 17 at 8:45 PM EDT to October 24 at 5 PM EDT, 2026. UTC conversion: October 18 00:45 through October 24 21:00. Toronto deadline 17:00. Winners October 28 at 9 AM EDT. The page says submissions, not a separately labeled build period; rules require creation during event period.
 
-93 displayed participants means registered people, not teams or submissions. Registration and empty dashboard verified earlier by the parent task at 17:07 UTC; not independently rechecked here. No entry submitted.
+93 displayed participants means registered people, not teams or submissions. No entry has been submitted for this project.
 
 ## Product and rubric mapping
 

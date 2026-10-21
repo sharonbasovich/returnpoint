@@ -1,82 +1,82 @@
 
-> returnpoint@1.0.1 test
+> returnpoint@1.0.2 test
 > node --test tests/*.test.mjs
 
 TAP version 13
 # Subtest: capture, close/reopen, update repeatedly preserve exact multiline data
 ok 1 - capture, close/reopen, update repeatedly preserve exact multiline data
   ---
-  duration_ms: 7.3253
+  duration_ms: 12.8308
   ...
 # Subtest: stale tab cannot overwrite a newer checkpoint
 ok 2 - stale tab cannot overwrite a newer checkpoint
   ---
-  duration_ms: 0.7008
+  duration_ms: 0.85
   ...
 # Subtest: simultaneous tab saves serialize and exactly one succeeds
 ok 3 - simultaneous tab saves serialize and exactly one succeeds
   ---
-  duration_ms: 0.2493
+  duration_ms: 0.2154
   ...
 # Subtest: unavailable reads and quota failure are exposed
 ok 4 - unavailable reads and quota failure are exposed
   ---
-  duration_ms: 0.2422
+  duration_ms: 0.2111
   ...
 # Subtest: missing lock API fails closed
 ok 5 - missing lock API fails closed
   ---
-  duration_ms: 0.1734
+  duration_ms: 0.9963
   ...
 # Subtest: export/import round trip retains unicode and treats markup as text
 ok 6 - export/import round trip retains unicode and treats markup as text
   ---
-  duration_ms: 0.2192
+  duration_ms: 0.5905
   ...
 # Subtest: malformed, wrong schema, oversized and missing required imports reject
 ok 7 - malformed, wrong schema, oversized and missing required imports reject
   ---
-  duration_ms: 0.7625
+  duration_ms: 2.1082
   ...
 # Subtest: damaged existing checkpoint is not overwritten by a stale writer
 ok 8 - damaged existing checkpoint is not overwritten by a stale writer
   ---
-  duration_ms: 0.8949
+  duration_ms: 0.1634
   ...
 # Subtest: interrupted write with lost acknowledgement is recoverable on reopen
 ok 9 - interrupted write with lost acknowledgement is recoverable on reopen
   ---
-  duration_ms: 0.4191
+  duration_ms: 0.4504
   ...
 # Subtest: reopening never refreshes recorded time or promotes assumptions
 ok 10 - reopening never refreshes recorded time or promotes assumptions
   ---
-  duration_ms: 0.3616
+  duration_ms: 0.337
   ...
 # Subtest: partial draft recovery round-trips without becoming a valid checkpoint
 ok 11 - partial draft recovery round-trips without becoming a valid checkpoint
   ---
-  duration_ms: 0.6673
+  duration_ms: 0.636
   ...
 # Subtest: every valid field at maximum escaped length remains export/import recoverable
 ok 12 - every valid field at maximum escaped length remains export/import recoverable
   ---
-  duration_ms: 3.7144
+  duration_ms: 5.7855
   ...
 # Subtest: import bound measures UTF-8 bytes, including ignored outer data
 ok 13 - import bound measures UTF-8 bytes, including ignored outer data
   ---
-  duration_ms: 1.2322
+  duration_ms: 1.4497
   ...
 # Subtest: server exposes only four fixed assets; notes never have a data endpoint
 ok 14 - server exposes only four fixed assets; notes never have a data endpoint
   ---
-  duration_ms: 7.7009
+  duration_ms: 32.2611
   ...
 # Subtest: request methods, malformed targets, HEAD and CSP fail closed
 ok 15 - request methods, malformed targets, HEAD and CSP fail closed
   ---
-  duration_ms: 3.4279
+  duration_ms: 3.6222
   ...
 1..15
 # tests 15
@@ -86,4 +86,4 @@ ok 15 - request methods, malformed targets, HEAD and CSP fail closed
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 176.2973
+# duration_ms 220.4681

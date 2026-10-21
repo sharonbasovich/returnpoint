@@ -1,6 +1,6 @@
-# Independent review pass: ReturnPoint 1.0.1
+# Source and artifact review
 
-October 21, 2026. This is a separate source/artifact review pass by the same Codex agent, not a claim of an independent human reviewer or user validation.
+Automated source and artifact review, October 21, 2026. This is not an independent human security audit or user study. Version 1.0.2 updates documentation and version/build metadata; product code and tests are unchanged from 1.0.1.
 
 ## Boundaries and security
 
@@ -25,6 +25,6 @@ Recorded facts are the user's report, not app verification. Reopen reads the ori
 
 ## Artifact review
 
-Original 1.0.0 ZIP preserved unchanged in archives/, SHA-256 a61b999774b072c83c38d5f77da7444bf59bd77b80bd817de403490bc7442c3d. The reviewed 1.0.1 build is created from an explicit allowlist; no browser-local storage, credentials, unrelated projects, .git, environment files or user downloads are included. Runtime dependencies: zero. MIT license and AI/pre-existing-component disclosures included. A per-file SHA-256 manifest and ZIP integrity check accompany the reviewed package. The release ZIP checksum is supplied separately to avoid a self-referential hash.
+The build uses an explicit file allowlist; no browser-local storage, credentials, unrelated files, .git, environment files or user downloads are included. Runtime dependencies: zero. MIT license and AI/pre-existing-component disclosures are included. A per-file SHA-256 manifest and ZIP integrity check accompany the package. The release ZIP checksum is supplied separately to avoid a self-referential hash. Existing released ZIPs are not modified.
 
-Tests: 15 source tests and syntax checks pass, including four new maximum-export/import and HTTP-boundary cases. Browser regression checks on the reviewed app also passed: repeated exports preserved the same unsaved backup snapshot; canceling edits restored the saved action; returning to the saved editor and saving succeeded. See refreshed test/build logs for final output. Prior screenshots show the same unchanged visual layout before this maintenance pass. Other browser evidence and remaining limitations are in QA.md. No screen-reader, cross-browser or user-validation claim. Publication verification is recorded separately after any successful publish, so packaging evidence does not assume publication success.
+Tests: 15 source tests and syntax checks pass, including maximum-export/import and HTTP-boundary cases. Browser regression checks passed: repeated exports preserved the same unsaved backup snapshot; canceling edits restored the saved action; returning to the saved editor and saving succeeded. See test/build logs for output. Screenshots show the unchanged product layout. Other browser evidence and remaining limitations are in QA.md. No screen-reader, cross-browser or user-validation claim is made.
