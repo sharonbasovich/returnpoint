@@ -1,0 +1,4 @@
+
+> returnpoint@1.0.1 check
+> node --check server.mjs && node --check public/app.js && node --check public/core.js
+

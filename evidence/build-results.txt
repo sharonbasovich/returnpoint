@@ -1,0 +1,5 @@
+
+> returnpoint@1.0.1 build
+> node build.mjs
+
+Built dist/: self-contained source and server; run node server.mjs from dist.
